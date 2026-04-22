@@ -45,7 +45,7 @@ namespace Laba10_1
                 // Database - имя базы данных
                 // Username - имя пользователя PostgreSQL
                 // Password - пароль пользователя PostgreSQL
-                var connectionString = "Host=localhost;Database=ResearcherLabDB;Username=postgres;Password=your_password";
+                var connectionString = "Host=localhost;Database=ResearcherLabDB;Username=postgres;Password=REPLACE_WITH_YOUR_PASSWORD";
                 
                 optionsBuilder.UseNpgsql(connectionString);
             }
