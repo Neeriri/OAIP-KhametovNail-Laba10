@@ -1,0 +1,18 @@
+﻿<Window x:Class="Laba10_1.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Регистрация" Height="600" Width="400">
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+        <StackPanel Margin="20">
+            <TextBox x:Name="FirstNameTB" Tag="Имя" Margin="5" Height="25"/>
+            <TextBox x:Name="LastNameTB" Tag="Фамилия" Margin="5" Height="25"/>
+            <TextBox x:Name="DOBPicker" Tag="Дата рождения (дд.мм.гггг)" Margin="5" Height="25"/>
+            <TextBox x:Name="EmailTB" Tag="Email" Margin="5" Height="25"/>
+            <PasswordBox x:Name="PasswordBox" Tag="Пароль" Margin="5" Height="25"/>
+            <TextBox x:Name="PhoneTB" Tag="Телефон" Margin="5" Height="25"/>
+            <TextBox x:Name="ResearchFieldTB" Tag="Область исследования" Margin="5" Height="25"/>
+            <TextBox x:Name="PubDatePicker" Tag="Дата первой публикации (дд.мм.гггг)" Margin="5" Height="25"/>
+            <Button Content="Зарегистрироваться" Click="RegisterButton_Click" Margin="10" Height="35"/>
+        </StackPanel>
+    </ScrollViewer>
+</Window>
