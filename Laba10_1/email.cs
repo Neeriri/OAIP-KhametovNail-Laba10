@@ -20,8 +20,8 @@ namespace Laba10_1
         // !!! ЗАМЕНИТЕ НА ВАШИ РЕАЛЬНЫЕ ДАННЫЕ !!!
         private const string SmtpHost = "smtp.mail.ru";
         private const int SmtpPort = 587;
-        private const string SenderEmail = "your_email@mail.ru";
-        private const string SenderAppPassword = "your_app_password";
+        private const string SenderEmail = "REPLACE_WITH_YOUR_EMAIL@mail.ru";
+        private const string SenderAppPassword = "REPLACE_WITH_YOUR_APP_PASSWORD";
 
         public static string SendVerificationCode(string toEmail)
         {
