@@ -9,7 +9,20 @@ namespace Laba10_1
 
         public BD()
         {
-            Database.EnsureCreated();
+            try
+            {
+                Database.EnsureCreated();
+            }
+            catch (Npgsql.NpgsqlException ex)
+            {
+                throw new Npgsql.NpgsqlException(
+                    $"Ошибка подключения к PostgreSQL: {ex.Message}\n\n" +
+                    "Проверьте:\n" +
+                    "1. Запущен ли PostgreSQL сервер\n" +
+                    "2. Правильность параметров подключения (Host, Database, Username, Password)\n" +
+                    "3. Наличие базы данных ResearcherLabDB или прав на её создание", 
+                    ex);
+            }
         }
 
         public static BD GetContext()
@@ -27,8 +40,13 @@ namespace Laba10_1
             if (!optionsBuilder.IsConfigured)
             {
                 // Подключение к PostgreSQL
-                // Замените параметры на ваши: Host, Database, Username, Password
+                // ИЗМЕНИТЕ параметры на ваши:
+                // Host - адрес сервера (localhost если локально)
+                // Database - имя базы данных
+                // Username - имя пользователя PostgreSQL
+                // Password - пароль пользователя PostgreSQL
                 var connectionString = "Host=localhost;Database=ResearcherLabDB;Username=postgres;Password=your_password";
+                
                 optionsBuilder.UseNpgsql(connectionString);
             }
         }

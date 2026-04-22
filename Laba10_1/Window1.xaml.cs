@@ -77,6 +77,11 @@ namespace Laba10_1
                 new autor().Show();
                 Close();
             }
+            catch (Npgsql.NpgsqlException ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}\n\nПроверьте настройки подключения в файле bd.cs", "Ошибка БД",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
             catch (Exception ex)
             {
                 MessageBox.Show($"Ошибка БД: {ex.Message}", "Ошибка",
