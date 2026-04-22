@@ -23,17 +23,17 @@ namespace Laba10_1
                 return;
             }
 
-            var user = BD.GetContext().Researchers.FirstOrDefault(u => u.Email == email);
-            if (user == null)
-            {
-                MessageBox.Show("Пользователь не найден.", "Ошибка");
-                return;
-            }
-
-            _userEmail = email;
-
             try
             {
+                var user = BD.GetContext().Researchers.FirstOrDefault(u => u.Email == email);
+                if (user == null)
+                {
+                    MessageBox.Show("Пользователь не найден.", "Ошибка");
+                    return;
+                }
+
+                _userEmail = email;
+
                 _generatedCode = EmailService.SendVerificationCode(email);
                 
                 // Сохраняем код в базу данных
@@ -51,9 +51,13 @@ namespace Laba10_1
                 MessageBox.Show("Код отправлен на указанную почту.", "Успех");
                 CodePanel.Visibility = Visibility.Visible;
             }
+            catch (Npgsql.NpgsqlException ex)
+            {
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}\n\nПроверьте настройки подключения в файле bd.cs", "Ошибка БД");
+            }
             catch (System.Net.Mail.SmtpException ex)
             {
-                MessageBox.Show($"Ошибка SMTP: {ex.Message}\nПроверьте настройки EmailService.", "Ошибка");
+                MessageBox.Show($"Ошибка SMTP: {ex.Message}\n\nПроверьте настройки EmailService:\n- SmtpHost\n- SmtpPort\n- SenderEmail\n- SenderAppPassword (пароль приложения)", "Ошибка");
             }
             catch (Exception ex)
             {
@@ -69,34 +73,45 @@ namespace Laba10_1
                 return;
             }
 
-            // Проверяем код в базе данных
-            var resetCode = BD.GetContext().PasswordResetCodes
-                .FirstOrDefault(rc => rc.Email == _userEmail && rc.Code == CodeTB.Text && !rc.IsUsed);
-
-            if (resetCode == null)
+            try
             {
-                MessageBox.Show("Неверный код или срок действия истек.", "Ошибка");
-                return;
-            }
+                // Проверяем код в базе данных
+                var resetCode = BD.GetContext().PasswordResetCodes
+                    .FirstOrDefault(rc => rc.Email == _userEmail && rc.Code == CodeTB.Text && !rc.IsUsed);
 
-            // Проверяем, не истек ли срок действия (15 минут)
-            if (DateTime.Now - resetCode.CreatedAt > TimeSpan.FromMinutes(15))
+                if (resetCode == null)
+                {
+                    MessageBox.Show("Неверный код или срок действия истек.", "Ошибка");
+                    return;
+                }
+
+                // Проверяем, не истек ли срок действия (15 минут)
+                if (DateTime.Now - resetCode.CreatedAt > TimeSpan.FromMinutes(15))
+                {
+                    MessageBox.Show("Срок действия кода истек. Запросите новый код.", "Ошибка");
+                    return;
+                }
+
+                // Код верный, открываем окно смены пароля
+                MessageBox.Show("Код подтверждён!", "Успех");
+                
+                var changePasswordWindow = new ChangePasswordWindow(_userEmail);
+                changePasswordWindow.ShowDialog();
+                
+                // Помечаем код как использованный
+                resetCode.IsUsed = true;
+                BD.GetContext().SaveChanges();
+                
+                Close();
+            }
+            catch (Npgsql.NpgsqlException ex)
             {
-                MessageBox.Show("Срок действия кода истек. Запросите новый код.", "Ошибка");
-                return;
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}", "Ошибка БД");
             }
-
-            // Код верный, открываем окно смены пароля
-            MessageBox.Show("Код подтверждён!", "Успех");
-            
-            var changePasswordWindow = new ChangePasswordWindow(_userEmail);
-            changePasswordWindow.ShowDialog();
-            
-            // Помечаем код как использованный
-            resetCode.IsUsed = true;
-            BD.GetContext().SaveChanges();
-            
-            Close();
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка: {ex.Message}", "Ошибка");
+            }
         }
     }
 }

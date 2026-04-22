@@ -22,21 +22,34 @@ namespace Laba10_1
                 return;
             }
 
-            var user = BD.GetContext().Researchers.FirstOrDefault(u => u.Email == email);
-
-            if (user != null && PasswordHelper.VerifyPassword(password, user.Password))
+            try
             {
-                MessageBox.Show("Авторизация успешна!", "Успех",
-                    MessageBoxButton.OK, MessageBoxImage.Information);
+                var user = BD.GetContext().Researchers.FirstOrDefault(u => u.Email == email);
 
-                var mainWindow = new MainWindow();
-                mainWindow.LoadUserData(user);  
-                mainWindow.Show();
-                Close();
+                if (user != null && PasswordHelper.VerifyPassword(password, user.Password))
+                {
+                    MessageBox.Show("Авторизация успешна!", "Успех",
+                        MessageBoxButton.OK, MessageBoxImage.Information);
+
+                    var mainWindow = new MainWindow();
+                    mainWindow.LoadUserData(user);
+                    mainWindow.Show();
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Неверный Email или пароль!", "Ошибка",
+                        MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
-            else
+            catch (Npgsql.NpgsqlException ex)
             {
-                MessageBox.Show("Неверный Email или пароль!", "Ошибка",
+                MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}\n\nПроверьте настройки подключения в файле bd.cs", "Ошибка БД",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ошибка: {ex.Message}", "Ошибка",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
@@ -44,6 +57,11 @@ namespace Laba10_1
         private void RecoverButton_Click(object sender, RoutedEventArgs e)
         {
             new recovery().ShowDialog();
+        }
+
+        private void RegisterButton_Click(object sender, RoutedEventArgs e)
+        {
+            new Window1().ShowDialog();
         }
     }
 }
