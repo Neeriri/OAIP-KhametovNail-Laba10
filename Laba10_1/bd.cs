@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Npgsql;
 
 namespace Laba10_1
 {
@@ -19,12 +20,16 @@ namespace Laba10_1
         }
 
         public DbSet<Researcher> Researchers { get; set; }
+        public DbSet<PasswordResetCode> PasswordResetCodes { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=.;Database=ResearcherLabDB;Trusted_Connection=True;TrustServerCertificate=True;");
+                // Подключение к PostgreSQL
+                // Замените параметры на ваши: Host, Database, Username, Password
+                var connectionString = "Host=localhost;Database=ResearcherLabDB;Username=postgres;Password=your_password";
+                optionsBuilder.UseNpgsql(connectionString);
             }
         }
     }
