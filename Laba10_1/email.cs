@@ -7,10 +7,14 @@ namespace Laba10_1
 {
     public static class EmailService
     {
+        // Настройки SMTP для отправки писем
+        // Для Mail.ru: smtp.mail.ru, порт 587
+        // Для Gmail: smtp.gmail.com, порт 587
+        // Замените на ваши реальные данные
         private const string SmtpHost = "smtp.mail.ru";
         private const int SmtpPort = 587;
         private const string SenderEmail = "your_email@mail.ru";
-        private const string SenderAppPassword = "your_20_char_app_password";
+        private const string SenderAppPassword = "your_app_password";
 
         public static string SendVerificationCode(string toEmail)
         {
@@ -25,7 +29,7 @@ namespace Laba10_1
                 {
                     From = new MailAddress(SenderEmail, "Восстановление доступа"),
                     Subject = "Код подтверждения",
-                    Body = $"<h1>Ваш код подтверждения: <b>{code}</b></h1>",
+                    Body = $"<h1>Ваш код подтверждения: <b>{code}</b></h1><p>Код действителен в течение 15 минут.</p>",
                     IsBodyHtml = true,
                     BodyEncoding = Encoding.UTF8
                 };
