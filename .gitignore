@@ -2,28 +2,70 @@
 # Build artifacts
 bin/
 obj/
-*.exe
 *.dll
+*.exe
 *.pdb
 *.userprefs
+*.cache
+*.suo
+*.user
+*.aps
+*.ncb
+*.obj
+*.o
+*.ilk
+*.lib
+*.so
+*.dylib
+*.aar
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.tar.bz2
+*.tar.xz
 
 # Dependencies
 packages/
-packages.config
-*.nupkg
+node_modules/
+bower_components/
 
 # Logs
 *.log
 
-# Temporary files
-*.tmp
-*.temp
-*~
+# Environment specific
+.vs/
+.vshost.exe
+.vshost.exe.config
+.userprefs
+
+# OS generated files
 .DS_Store
 Thumbs.db
+ehthumbs.db
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+Desktop.ini
 
-# Visual Studio
-*.user
-*.suo
-.vs/
+# Testing
+TestResults/
+
+# NCrunch
+_NCrunch_*
+*crunch*.local.xml
+
+# Coverlet coverage reports
+coverage/
+
+# Cake - Uncomment if you are using it
+# tools/**
+# !tools/packages.config
+
+# Explicitly include the tools folder when using "build/" folder
+# (but without uncluding tools/** via files)
+# !build/tools/
+# !build/src/**
 ```
