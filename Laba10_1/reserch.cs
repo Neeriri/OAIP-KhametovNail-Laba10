@@ -34,6 +34,9 @@ namespace Laba10_1
         
         [Column("first_publication_date")]
         public DateTime FirstPublicationDate { get; set; }
+        
+        [Column("role")]
+        public string Role { get; set; } = "User";
     }
     
     [Table("password_reset_codes")]
