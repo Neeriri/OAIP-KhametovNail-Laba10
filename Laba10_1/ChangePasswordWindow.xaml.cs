@@ -42,7 +42,6 @@ namespace Laba10_1
 
             try
             {
-                // Находим пользователя по email
                 var user = BD.GetContext().Researchers.FirstOrDefault(u => u.Email == _userEmail);
                 if (user == null)
                 {
@@ -50,8 +49,6 @@ namespace Laba10_1
                         MessageBoxButton.OK, MessageBoxImage.Error);
                     return;
                 }
-
-                // Хэшируем новый пароль и сохраняем в БД
                 user.Password = PasswordHelper.HashPassword(newPassword);
                 BD.GetContext().SaveChanges();
 

@@ -8,8 +8,12 @@ public class BD : DbContext
     static BD()
     {
         AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
-    }
 
+    }
+    public BD()
+    {
+        Database.EnsureCreated();
+    }
     public DbSet<Researcher> Researchers { get; set; }
     public DbSet<PasswordResetCode> PasswordResetCodes { get; set; }
 

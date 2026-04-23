@@ -99,8 +99,6 @@ namespace Laba10_1
             catch (Exception ex)
             {
                 string fullError = $"Основная ошибка: {ex.Message}";
-
-                // Распаковываем вложенные исключения
                 var inner = ex.InnerException;
                 int level = 1;
                 while (inner != null)
@@ -109,8 +107,6 @@ namespace Laba10_1
                     inner = inner.InnerException;
                     level++;
                 }
-
-                // Если это ошибка PostgreSQL, выводим её специфичные поля
                 if (ex is Npgsql.PostgresException pgEx)
                 {
                     fullError += $"\n\n🔴 PostgreSQL Error:\n" +
