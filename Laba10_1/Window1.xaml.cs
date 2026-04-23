@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Text.RegularExpressions;
 using System.Windows;
+using Microsoft.EntityFrameworkCore;
 
 namespace Laba10_1
 {
@@ -68,8 +69,19 @@ namespace Laba10_1
 
             try
             {
-                BD.GetContext().Researchers.Add(researcher);
-                BD.GetContext().SaveChanges();
+                using var context = new BD();
+
+                if (context.Researchers.Any(r => r.Email == researcher.Email))
+                {
+                    MessageBox.Show("Пользователь с таким Email уже существует!", "Ошибка",
+                        MessageBoxButton.OK, MessageBoxImage.Warning);
+                    return;
+                }
+
+                context.Researchers.Add(researcher);
+
+                context.Database.SetCommandTimeout(TimeSpan.FromMinutes(2));
+                context.SaveChanges();
 
                 MessageBox.Show("Регистрация прошла успешно!", "Успех",
                     MessageBoxButton.OK, MessageBoxImage.Information);
@@ -82,9 +94,32 @@ namespace Laba10_1
                 MessageBox.Show($"Ошибка подключения к базе данных: {ex.Message}\n\nПроверьте настройки подключения в файле bd.cs", "Ошибка БД",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
+       
             catch (Exception ex)
             {
-                MessageBox.Show($"Ошибка БД: {ex.Message}", "Ошибка",
+                string fullError = $"Основная ошибка: {ex.Message}";
+
+                // Распаковываем вложенные исключения
+                var inner = ex.InnerException;
+                int level = 1;
+                while (inner != null)
+                {
+                    fullError += $"\n[Уровень {level}] {inner.GetType().Name}: {inner.Message}";
+                    inner = inner.InnerException;
+                    level++;
+                }
+
+                // Если это ошибка PostgreSQL, выводим её специфичные поля
+                if (ex is Npgsql.PostgresException pgEx)
+                {
+                    fullError += $"\n\n🔴 PostgreSQL Error:\n" +
+                                 $"SQL State: {pgEx.SqlState}\n" +
+                                 $"Message Text: {pgEx.MessageText}\n" +
+                                 $"Detail: {pgEx.Detail}\n" +
+                                 $"Hint: {pgEx.Hint}";
+                }
+
+                MessageBox.Show(fullError, "Детали ошибки БД",
                     MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }

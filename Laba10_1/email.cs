@@ -7,21 +7,11 @@ namespace Laba10_1
 {
     public static class EmailService
     {
-        // Настройки SMTP для отправки писем
-        // ДЛЯ MAIL.RU:
-        //   SmtpHost = "smtp.mail.ru", SmtpPort = 587
-        //   Нужно создать "пароль приложения" в настройках почты
-        // ДЛЯ GMAIL:
-        //   SmtpHost = "smtp.gmail.com", SmtpPort = 587
-        //   Нужно включить двухфакторную аутентификацию и создать "пароль приложения"
-        // ДЛЯ YANDEX:
-        //   SmtpHost = "smtp.yandex.ru", SmtpPort = 465
-        
-        // !!! ЗАМЕНИТЕ НА ВАШИ РЕАЛЬНЫЕ ДАННЫЕ !!!
+    
         private const string SmtpHost = "smtp.mail.ru";
         private const int SmtpPort = 587;
-        private const string SenderEmail = "REPLACE_WITH_YOUR_EMAIL@mail.ru";
-        private const string SenderAppPassword = "REPLACE_WITH_YOUR_APP_PASSWORD";
+        private const string SenderEmail = "khametov_08@mail.ru";
+        private const string SenderAppPassword = "g0n5Tp1s9trwWRCyYxd7";
 
         public static string SendVerificationCode(string toEmail)
         {

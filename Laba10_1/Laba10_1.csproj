@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ProjectGuid>{4411F143-9DE4-4C96-945A-8F000EC12C24}</ProjectGuid>
   </PropertyGroup>
 
   <ItemGroup>

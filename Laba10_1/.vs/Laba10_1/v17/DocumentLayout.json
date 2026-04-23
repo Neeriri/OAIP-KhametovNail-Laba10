@@ -1,61 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\",
+  "WorkspaceRootPath": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\source\\repos\\laba10_1\\autor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:autor.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Neeriri\\AppData\\Local\\Temp\\.vsdbgsrc\\41f3991a1e606c4091a1ec834297b3119e76e073aa13ccfd04a06d41f346efbd\\WpfXamlLoader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\recovery.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:recovery.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\recovery.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:recovery.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\autor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\oaip-khametovnail-laba10\\laba10_1\\autor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:autor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\oaip-khametovnail-laba10\\laba10_1\\window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:window1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\oaip-khametovnail-laba10\\laba10_1\\window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:window1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\reserch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:reserch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\oaip-khametovnail-laba10\\laba10_1\\changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:changepasswordwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\oaip-khametovnail-laba10\\laba10_1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\oaip-khametovnail-laba10\\laba10_1\\recovery.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:recovery.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\oaip-khametovnail-laba10\\laba10_1\\email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:email.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|c:\\users\\neeriri\\oaip-khametovnail-laba10\\laba10_1\\bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4411F143-9DE4-4C96-945A-8F000EC12C24}|Laba10_1.csproj|solutionrelative:bd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\obj\\Debug\\net8.0-windows\\Laba10_1.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0-windows\\Laba10_1.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,173 +46,119 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WpfXamlLoader.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\AppData\\Local\\Temp\\.vsdbgsrc\\41f3991a1e606c4091a1ec834297b3119e76e073aa13ccfd04a06d41f346efbd\\WpfXamlLoader.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\41f3991a1e606c4091a1ec834297b3119e76e073aa13ccfd04a06d41f346efbd\\WpfXamlLoader.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\AppData\\Local\\Temp\\.vsdbgsrc\\41f3991a1e606c4091a1ec834297b3119e76e073aa13ccfd04a06d41f346efbd\\WpfXamlLoader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\41f3991a1e606c4091a1ec834297b3119e76e073aa13ccfd04a06d41f346efbd\\WpfXamlLoader.cs [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T06:01:03.093Z",
-              "EditorCaption": " [\u0422\u043E\u043B\u044C\u043A\u043E \u0447\u0442\u0435\u043D\u0438\u0435]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "password.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\password.cs",
-              "RelativeDocumentMoniker": "password.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\password.cs",
-              "RelativeToolTip": "password.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAQwDwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:32:04.029Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 0,
               "Title": "autor.xaml",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\autor.xaml",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\autor.xaml",
               "RelativeDocumentMoniker": "autor.xaml",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\autor.xaml",
-              "RelativeToolTip": "autor.xaml",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\autor.xaml*",
+              "RelativeToolTip": "autor.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-21T05:38:00.59Z"
+              "WhenOpened": "2026-04-22T17:49:44.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ChangePasswordWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\ChangePasswordWindow.xaml",
+              "RelativeDocumentMoniker": "ChangePasswordWindow.xaml",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\ChangePasswordWindow.xaml",
+              "RelativeToolTip": "ChangePasswordWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T17:49:38.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-15T13:42:13.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "recovery.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\recovery.xaml.cs",
-              "RelativeDocumentMoniker": "recovery.xaml.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\recovery.xaml.cs",
-              "RelativeToolTip": "recovery.xaml.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwDgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:39:14.697Z"
+              "WhenOpened": "2026-04-22T17:49:33.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "bd.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\bd.cs",
-              "RelativeDocumentMoniker": "bd.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\bd.cs",
-              "RelativeToolTip": "bd.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:27:58.823Z"
+              "Title": "recovery.xaml",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\recovery.xaml",
+              "RelativeDocumentMoniker": "recovery.xaml",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\recovery.xaml",
+              "RelativeToolTip": "recovery.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-22T17:49:27.306Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "autor.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\autor.xaml.cs",
-              "RelativeDocumentMoniker": "autor.xaml.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\autor.xaml.cs",
-              "RelativeToolTip": "autor.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwAgAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Window1.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\Window1.xaml.cs",
+              "RelativeDocumentMoniker": "Window1.xaml.cs",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\Window1.xaml.cs",
+              "RelativeToolTip": "Window1.xaml.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwDQAAABYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:38:06.565Z",
+              "WhenOpened": "2026-04-22T17:11:07.585Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\MainWindow.xaml.cs",
-              "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-15T13:42:13.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "Window1.xaml",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\Window1.xaml",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\Window1.xaml",
               "RelativeDocumentMoniker": "Window1.xaml",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\Window1.xaml",
-              "RelativeToolTip": "Window1.xaml",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\Window1.xaml*",
+              "RelativeToolTip": "Window1.xaml*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-21T05:35:50.126Z"
+              "WhenOpened": "2026-04-22T16:52:31.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "recovery.xaml",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\recovery.xaml",
-              "RelativeDocumentMoniker": "recovery.xaml",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\recovery.xaml",
-              "RelativeToolTip": "recovery.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-04-21T05:39:10.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "email.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\email.cs",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\email.cs",
               "RelativeDocumentMoniker": "email.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\email.cs",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\email.cs",
               "RelativeToolTip": "email.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:34:42.78Z"
+              "WhenOpened": "2026-04-22T16:41:08.864Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "bd.cs",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\bd.cs",
+              "RelativeDocumentMoniker": "bd.cs",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\bd.cs",
+              "RelativeToolTip": "bd.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:50:15.449Z"
+              "WhenOpened": "2026-04-22T16:38:00.922Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Window1.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\Window1.xaml.cs",
-              "RelativeDocumentMoniker": "Window1.xaml.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\Window1.xaml.cs",
-              "RelativeToolTip": "Window1.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Laba10_1.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\obj\\Debug\\net8.0-windows\\Laba10_1.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0-windows\\Laba10_1.AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\Neeriri\\OAIP-KhametovNail-Laba10\\Laba10_1\\obj\\Debug\\net8.0-windows\\Laba10_1.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0-windows\\Laba10_1.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:36:03.017Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "reserch.cs",
-              "DocumentMoniker": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\reserch.cs",
-              "RelativeDocumentMoniker": "reserch.cs",
-              "ToolTip": "C:\\Users\\Neeriri\\source\\repos\\Laba10_1\\reserch.cs",
-              "RelativeToolTip": "reserch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-21T05:26:19.199Z"
+              "WhenOpened": "2026-04-22T16:38:56.389Z",
+              "EditorCaption": ""
             }
           ]
         }
