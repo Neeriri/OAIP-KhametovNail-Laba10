@@ -41,9 +41,9 @@ namespace Laba10_1
                 return;
             }
 
-            if (!Regex.IsMatch(EmailTB.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            if (!Regex.IsMatch(EmailTB.Text, @"^[^@\s]+@(mail\.ru|gmail\.com)$"))
             {
-                MessageBox.Show("Некорректный формат Email.", "Ошибка",
+                MessageBox.Show("Email должен быть на домене mail.ru или gmail.com.", "Ошибка",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
@@ -51,6 +51,14 @@ namespace Laba10_1
             if (PasswordBox.Password.Length < 6)
             {
                 MessageBox.Show("Пароль должен содержать минимум 6 символов.", "Ошибка",
+                    MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
+            }
+
+            // Валидация номера телефона: код страны (любой) + не более 10 цифр
+            if (!Regex.IsMatch(PhoneTB.Text, @"^\+\d{1,3}\d{1,10}$"))
+            {
+                MessageBox.Show("Номер телефона должен начинаться с + и кода страны, после которого должно быть не более 10 цифр.", "Ошибка",
                     MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
@@ -65,7 +73,7 @@ namespace Laba10_1
                 PhoneNumber = PhoneTB.Text,
                 ResearchField = ResearchFieldTB.Text,
                 FirstPublicationDate = pubDate,
-                Role = "Administrator"
+                Role = AdminCheckBox.IsChecked == true ? "Administrator" : "User"
             };
 
             try
