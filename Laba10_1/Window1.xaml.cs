@@ -64,7 +64,8 @@ namespace Laba10_1
                 Password = PasswordHelper.HashPassword(PasswordBox.Password),
                 PhoneNumber = PhoneTB.Text,
                 ResearchField = ResearchFieldTB.Text,
-                FirstPublicationDate = pubDate
+                FirstPublicationDate = pubDate,
+                Role = AdminCheckBox.IsChecked == true ? "Administrator" : "User"
             };
 
             try

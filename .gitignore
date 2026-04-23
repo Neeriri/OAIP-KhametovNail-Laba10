@@ -1,71 +1,44 @@
 ```
 # Build artifacts
-bin/
-obj/
-*.dll
-*.exe
-*.pdb
-*.userprefs
-*.cache
-*.suo
-*.user
-*.aps
-*.ncb
-*.obj
 *.o
-*.ilk
-*.lib
+*.obj
+*.exe
+*.dll
 *.so
-*.dylib
-*.aar
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.tar.bz2
-*.tar.xz
+*.a
+*.out
 
 # Dependencies
 packages/
-node_modules/
-bower_components/
+bin/
+obj/
 
-# Logs
+# Logs and temp files
 *.log
+*.tmp
+*.swp
 
-# Environment specific
+# Editors
 .vs/
-.vshost.exe
-.vshost.exe.config
-.userprefs
+.vscode/
+.idea/
 
-# OS generated files
-.DS_Store
+# Windows
 Thumbs.db
-ehthumbs.db
-Icon?
-._*
-.Spotlight-V100
-.Trashes
 Desktop.ini
 
-# Testing
-TestResults/
+# macOS
+.DS_Store
 
-# NCrunch
-_NCrunch_*
-*crunch*.local.xml
+# Configuration
+*.user
+*.userosscache
+*.suo
+*.userprefs
 
-# Coverlet coverage reports
-coverage/
-
-# Cake - Uncomment if you are using it
-# tools/**
-# !tools/packages.config
-
-# Explicitly include the tools folder when using "build/" folder
-# (but without uncluding tools/** via files)
-# !build/tools/
-# !build/src/**
+# WPF/XAML build outputs
+**/Debug/
+**/Release/
+**/bin/
+**/obj/
 ```

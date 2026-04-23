@@ -12,6 +12,7 @@
             <TextBox x:Name="PhoneTB" Tag="Телефон" Margin="5" Height="25"/>
             <TextBox x:Name="ResearchFieldTB" Tag="Область исследования" Margin="5" Height="25"/>
             <TextBox x:Name="PubDatePicker" Tag="Дата первой публикации (дд.мм.гггг)" Margin="5" Height="25"/>
+            <CheckBox x:Name="AdminCheckBox" Content="Зарегистрировать как администратор" Margin="5"/>
             <Button Content="Зарегистрироваться" Click="RegisterButton_Click" Margin="10" Height="35"/>
         </StackPanel>
     </ScrollViewer>
